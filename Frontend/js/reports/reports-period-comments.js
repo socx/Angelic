@@ -25,6 +25,9 @@ var ReportsPeriodComments = function () {
             }
         },
         initPeriodCommentsSections: function(data) {
+            $('#period-comments-div').empty();
+            $('#period-comments-div').append('<p class="section-header">Comments for this period:</p>'); 
+            $('#period-comments-div').append('<p>This section lists all of the comments submitted in this reporting period as well as highlighting any comments linked to either a red and/or amber flag response. </p>');
             let html = 
                 '<table style="width: 100%; border: 1px solid #cccccc; border-collapse: collapse;" >' +
                     '<tr>' +

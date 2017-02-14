@@ -88,7 +88,6 @@ var ReportsPdfBuilder = function () {
             html += '</body>';
             html += '</html>';
             
-            console.log(html);
             return html;
         }
     };
