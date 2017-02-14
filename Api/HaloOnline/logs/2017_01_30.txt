@@ -1,0 +1,32 @@
+30/01/2017 22:39:39	(ERROR) 	===>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetSurveyStatistics(Int32 surveyID, DateRange period) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 578
+   at HaloOnline.Reports.Store.ReportsController.GetSurveyStatistics(Int32 surveyid, String startDateString, String endDateString) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 78
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetSurveyStatistics(Int32, System.String, System.String)
+Line Number : 78
+Column Number : 17
+
+30/01/2017 22:38:19	(ERROR) 	===>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.ViewData.Services.ViewDataServices.GetViewData(ViewDataRequest request) in C:\repo\Angelic\HaloOnline\HaloOnline\ViewData\Services\ViewDataServices.cs:line 56
+   at HaloOnline.Reports.Store.ViewDataController.GetViewData(ViewDataRequest request) in C:\repo\Angelic\HaloOnline\HaloOnline\ViewData\Rest\ViewDataController.cs:line 41
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\ViewData\Rest\ViewDataController.cs
+Method : System.Web.Http.IHttpActionResult GetViewData(HaloOnline.ViewData.Rest.Messages.ViewDataRequest)
+Line Number : 41
+Column Number : 17
+
+30/01/2017 22:33:02	(ERROR) 	===>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.ViewData.Services.ViewDataServices.GetViewData(ViewDataRequest request) in C:\repo\Angelic\HaloOnline\HaloOnline\ViewData\Services\ViewDataServices.cs:line 56
+   at HaloOnline.Reports.Store.ViewDataController.GetViewData(ViewDataRequest request) in C:\repo\Angelic\HaloOnline\HaloOnline\ViewData\Rest\ViewDataController.cs:line 46
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\ViewData\Rest\ViewDataController.cs
+Method : System.Web.Http.IHttpActionResult GetViewData(HaloOnline.ViewData.Rest.Messages.ViewDataRequest)
+Line Number : 46
+Column Number : 17
+
+30/01/2017 21:51:57	(ERROR) 	===>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.ViewData.Services.ViewDataServices.GetViewData(ViewDataRequest request) in C:\repo\Angelic\HaloOnline\HaloOnline\ViewData\Services\ViewDataServices.cs:line 56
+   at HaloOnline.Reports.Store.ViewDataController.GetViewData(ViewDataRequest request) in C:\repo\Angelic\HaloOnline\HaloOnline\ViewData\Rest\ViewDataController.cs:line 46
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\ViewData\Rest\ViewDataController.cs
+Method : System.Web.Http.IHttpActionResult GetViewData(HaloOnline.ViewData.Rest.Messages.ViewDataRequest)
+Line Number : 46
+Column Number : 17
+

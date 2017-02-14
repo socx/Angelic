@@ -1,0 +1,10 @@
+14/02/2017 19:23:23	(ERROR) 	===>Cannot generate PDF:  (exit code: 3)Stack Trace   at NReco.PdfGenerator.HtmlToPdfConverter.GeneratePdfInternal(String[] htmlFiles, String inputContent, String coverHtml, String outputPdfFilePath, Stream outputStream)
+   at NReco.PdfGenerator.HtmlToPdfConverter.GeneratePdf(String htmlContent, String coverHtml, Stream output)
+   at NReco.PdfGenerator.HtmlToPdfConverter.GeneratePdf(String htmlContent, String coverHtml)
+   at NReco.PdfGenerator.HtmlToPdfConverter.GeneratePdf(String htmlContent)
+   at HaloOnline.Reports.Store.ReportsController.PostPDFReport(PdfReportRequest pdfReportRequest) in C:\repo\Angelic\Api\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 271
+FileName : C:\repo\Angelic\Api\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult PostPDFReport(HaloOnline.Reports.Rest.Messages.PdfReportRequest)
+Line Number : 271
+Column Number : 17
+

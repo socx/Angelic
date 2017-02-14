@@ -1,0 +1,211 @@
+27/12/2016 10:57:16	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetSurveyRespondents.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetResponses(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 162
+   at HaloOnline.Reports.Store.ReportsController.GetResponses(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 94
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetResponses(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 94
+Column Number : 17
+
+27/12/2016 10:57:16	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetFlagData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetFlagsData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 474
+   at HaloOnline.Reports.Store.ReportsController.GetFlagData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 199
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetFlagData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 199
+Column Number : 17
+
+27/12/2016 10:57:16	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetCustomerConfidenceScoreData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetCustomerConfidenceScoreData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 246
+   at HaloOnline.Reports.Store.ReportsController.GetConfidenceScoreData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 113
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetConfidenceScoreData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 113
+Column Number : 17
+
+27/12/2016 10:57:16	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetCommentsTableData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetPeriodCommentsData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 541
+   at HaloOnline.Reports.Store.ReportsController.GetPeriodCommentsData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 223
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetPeriodCommentsData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 223
+Column Number : 17
+
+27/12/2016 10:57:16	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetRecognitionData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetRecognitionData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 464
+   at HaloOnline.Reports.Store.ReportsController.GetRecognitionData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 175
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetRecognitionData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 175
+Column Number : 17
+
+27/12/2016 10:57:17	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetCustomerExperienceData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataSet(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 41
+   at HaloOnline.Reports.Services.ReportsServices.GetCustomerExperienceData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 400
+   at HaloOnline.Reports.Store.ReportsController.GetCustomerExperienceData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 151
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetCustomerExperienceData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 151
+Column Number : 17
+
+27/12/2016 11:19:51	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetSurveyRespondents.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetResponses(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 162
+   at HaloOnline.Reports.Store.ReportsController.GetResponses(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 94
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetResponses(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 94
+Column Number : 17
+
+27/12/2016 11:19:52	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetFlagData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetFlagsData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 474
+   at HaloOnline.Reports.Store.ReportsController.GetFlagData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 199
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetFlagData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 199
+Column Number : 17
+
+27/12/2016 11:19:52	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetCustomerConfidenceScoreData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetCustomerConfidenceScoreData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 246
+   at HaloOnline.Reports.Store.ReportsController.GetConfidenceScoreData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 113
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetConfidenceScoreData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 113
+Column Number : 17
+
+27/12/2016 11:19:52	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetRecognitionData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetRecognitionData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 464
+   at HaloOnline.Reports.Store.ReportsController.GetRecognitionData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 175
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetRecognitionData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 175
+Column Number : 17
+
+27/12/2016 11:19:53	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetCommentsTableData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetPeriodCommentsData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 541
+   at HaloOnline.Reports.Store.ReportsController.GetPeriodCommentsData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 223
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetPeriodCommentsData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 223
+Column Number : 17
+
+27/12/2016 11:19:53	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetCustomerExperienceData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataSet(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 41
+   at HaloOnline.Reports.Services.ReportsServices.GetCustomerExperienceData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 400
+   at HaloOnline.Reports.Store.ReportsController.GetCustomerExperienceData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 151
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetCustomerExperienceData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 151
+Column Number : 17
+
+27/12/2016 11:22:23	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetSurveyRespondents.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetResponses(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 162
+   at HaloOnline.Reports.Store.ReportsController.GetResponses(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 94
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetResponses(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 94
+Column Number : 17
+
+27/12/2016 11:22:23	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetCustomerExperienceData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataSet(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 41
+   at HaloOnline.Reports.Services.ReportsServices.GetCustomerExperienceData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 400
+   at HaloOnline.Reports.Store.ReportsController.GetCustomerExperienceData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 151
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetCustomerExperienceData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 151
+Column Number : 17
+
+27/12/2016 11:22:23	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetFlagData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetFlagsData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 474
+   at HaloOnline.Reports.Store.ReportsController.GetFlagData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 199
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetFlagData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 199
+Column Number : 17
+
+27/12/2016 11:22:23	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetRecognitionData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetRecognitionData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 464
+   at HaloOnline.Reports.Store.ReportsController.GetRecognitionData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 175
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetRecognitionData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 175
+Column Number : 17
+
+27/12/2016 11:22:23	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetCommentsTableData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetPeriodCommentsData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 541
+   at HaloOnline.Reports.Store.ReportsController.GetPeriodCommentsData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 223
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetPeriodCommentsData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 223
+Column Number : 17
+
+27/12/2016 11:22:24	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetCustomerConfidenceScoreData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetCustomerConfidenceScoreData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 246
+   at HaloOnline.Reports.Store.ReportsController.GetConfidenceScoreData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 113
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetConfidenceScoreData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 113
+Column Number : 17
+
+27/12/2016 11:27:23	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetSurveyRespondents.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetResponses(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 162
+   at HaloOnline.Reports.Store.ReportsController.GetResponses(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 94
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetResponses(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 94
+Column Number : 17
+
+27/12/2016 11:27:31	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetCommentsTableData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetPeriodCommentsData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 541
+   at HaloOnline.Reports.Store.ReportsController.GetPeriodCommentsData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 223
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetPeriodCommentsData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 223
+Column Number : 17
+
+27/12/2016 11:28:42	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetFlagData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetFlagsData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 474
+   at HaloOnline.Reports.Store.ReportsController.GetFlagData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 199
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetFlagData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 199
+Column Number : 17
+
+27/12/2016 11:28:44	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetCustomerConfidenceScoreData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetCustomerConfidenceScoreData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 246
+   at HaloOnline.Reports.Store.ReportsController.GetConfidenceScoreData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 113
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetConfidenceScoreData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 113
+Column Number : 17
+
+27/12/2016 11:28:44	(ERROR) 	===>@AllWithOrWithoutFilters is not a parameter for procedure rptGetCustomerExperienceData.Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataSet(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 41
+   at HaloOnline.Reports.Services.ReportsServices.GetCustomerExperienceData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 400
+   at HaloOnline.Reports.Store.ReportsController.GetCustomerExperienceData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 151
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetCustomerExperienceData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 151
+Column Number : 17
+
+27/12/2016 11:55:43	(ERROR) 	===>Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=50794; handshake=0; Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetCustomerConfidenceTrendData(Int32 surveyId) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 264
+   at HaloOnline.Reports.Store.ReportsController.GetConfidenceTrendData(Int32 SurveyId) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 132
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetConfidenceTrendData(Int32)
+Line Number : 132
+Column Number : 17
+
+27/12/2016 16:06:03	(ERROR) 	===>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetPromptsByQuestionTypeID(Int32 surveyID, Int32 questionTypeID) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 57
+   at HaloOnline.Reports.Services.ReportsServices.GetCustomerExperienceData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 400
+   at HaloOnline.Reports.Store.ReportsController.GetCustomerExperienceData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 151
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetCustomerExperienceData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 151
+Column Number : 17
+
+27/12/2016 16:06:35	(ERROR) 	===>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetQuestionsByQuestionTypeID(Int32 surveyID, Int32 questionTypeID) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 109
+   at HaloOnline.Reports.Services.ReportsServices.GetQuestionByQuestionTypeID(Int32 surveyID, Int32 questionTypeID) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 25
+   at HaloOnline.Reports.Services.ReportsServices.GetRecognitionData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 464
+   at HaloOnline.Reports.Store.ReportsController.GetRecognitionData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 175
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetRecognitionData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 175
+Column Number : 17
+

@@ -1,0 +1,10 @@
+31/01/2017 18:26:31	(ERROR) 	===>A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)Stack Trace   at HaloOnline.DataAccess.HaloDatabase.GetDataTable(String procedureName, SqlParameter[] parameters) in C:\repo\Angelic\HaloOnline\HaloOnline\DataAccess\HaloDatabase.cs:line 69
+   at HaloOnline.Reports.Services.ReportsServices.GetQuestionsByQuestionTypeID(Int32 surveyID, Int32 questionTypeID) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 109
+   at HaloOnline.Reports.Services.ReportsServices.GetQuestionByQuestionTypeID(Int32 surveyID, Int32 questionTypeID) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 25
+   at HaloOnline.Reports.Services.ReportsServices.GetCustomerConfidenceScoreData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Services\ReportsServices.cs:line 208
+   at HaloOnline.Reports.Store.ReportsController.GetConfidenceScoreData(ReportRequest reportRequest) in C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs:line 116
+FileName : C:\repo\Angelic\HaloOnline\HaloOnline\Reports\Rest\ReportsController.cs
+Method : System.Web.Http.IHttpActionResult GetConfidenceScoreData(HaloOnline.Reports.Rest.Messages.ReportRequest)
+Line Number : 116
+Column Number : 17
+
