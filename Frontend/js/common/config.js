@@ -8,13 +8,13 @@ var Config = function () {
             return 'http://roastthatmeat.co.uk/halo';
         },
         getAppRootUrl1: function () {
-            return 'http://report.thehaloworks.com/halo';
+            return 'http://report.thehaloworks.com/frontend';
         },
         getApiRootUrl: function () {
-            return 'http://localhost:63547/api';
+            return 'http://report.thehaloworks.com/api';
         },
         getLoginPageUrl: function () {
-            return 'http://restapp.thehaloworks.com/halo/pages/client-login.html';
+            return 'http://report.thehaloworks.com/frontend/pages/client-login.html';
         },
         getHaloImgPath: function () {
             return 'http://guardiance.thehaloworks.com/Images';
